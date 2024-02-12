@@ -1,23 +1,133 @@
-question,item,total,age_14_29,age_30_49,age_50_x,female,male
-Current frequency of buying organic foods,Exclusively,3%,3%,3%,3%,4%,3%
-Current frequency of buying organic foods,Frequently,33%,30%,38%,31%,36%,29%
-Current frequency of buying organic foods,Occasionally,49%,52%,43%,51%,47%,50%
-Current frequency of buying organic foods,Never,15%,16%,16%,15%,12%,18%
-Current frequency of buying organic foods,Top 2,36%,33%,41%,34%,40%,32%
-Current frequency of buying organic foods,Top 3,85%,85%,84%,85%,87%,82%
-Planned frequency of buying organic foods in the future,Exclusively,4%,3%,5%,4%,5%,3%
-Planned frequency of buying organic foods in the future,Frequently,38%,40%,40%,35%,39%,35%
-Planned frequency of buying organic foods in the future,Occasionally,47%,50%,41%,48%,46%,48%
-Planned frequency of buying organic foods in the future,Never,12%,7%,14%,12%,10%,14%
-Planned frequency of buying organic foods in the future,Top 2,42%,43%,45%,39%,44%,38%
-Planned frequency of buying organic foods in the future,Top 3,89%,93%,86%,87%,90%,86%
-Reasons for buying organic foods,Regional origin and support for regional firms,88%,83%,86%,91%,91%,85%
-Reasons for buying organic foods,Animal welfare,90%,87%,90%,91%,92%,87%
-Reasons for buying organic foods,Fewer additive substances,85%,77%,88%,86%,89%,81%
-Reasons for buying organic foods,Healthy diet,87%,79%,87%,89%,90%,83%
-Reasons for buying organic foods,No use of genetically changed organisms,74%,68%,69%,78%,80%,67%
-Reasons for buying organic foods,Contribution to biodiversity,74%,64%,80%,74%,75%,72%
-Reasons for buying organic foods,Taste,67%,62%,65%,69%,70%,63%
-Reasons for buying organic foods,Avoidance of pesticide residues,84%,71%,83%,90%,87%,82%
-Reasons for buying organic foods,Social standards and fair income for producers,79%,76%,76%,82%,83%,75%
-Reasons for buying organic foods,Products as natural as possible,90%,87%,88%,92%,90%,89%
+question,item,group,percent_yes
+Current frequency of buying organic foods,Exclusively,total,3
+Current frequency of buying organic foods,Exclusively,age_14-29,3
+Current frequency of buying organic foods,Exclusively,age_30-49,3
+Current frequency of buying organic foods,Exclusively,age_50+,3
+Current frequency of buying organic foods,Exclusively,female,4
+Current frequency of buying organic foods,Exclusively,male,3
+Current frequency of buying organic foods,Frequently,total,33
+Current frequency of buying organic foods,Frequently,age_14-29,30
+Current frequency of buying organic foods,Frequently,age_30-49,38
+Current frequency of buying organic foods,Frequently,age_50+,31
+Current frequency of buying organic foods,Frequently,female,36
+Current frequency of buying organic foods,Frequently,male,29
+Current frequency of buying organic foods,Occasionally,total,49
+Current frequency of buying organic foods,Occasionally,age_14-29,52
+Current frequency of buying organic foods,Occasionally,age_30-49,43
+Current frequency of buying organic foods,Occasionally,age_50+,51
+Current frequency of buying organic foods,Occasionally,female,47
+Current frequency of buying organic foods,Occasionally,male,50
+Current frequency of buying organic foods,Never,total,15
+Current frequency of buying organic foods,Never,age_14-29,16
+Current frequency of buying organic foods,Never,age_30-49,16
+Current frequency of buying organic foods,Never,age_50+,15
+Current frequency of buying organic foods,Never,female,12
+Current frequency of buying organic foods,Never,male,18
+Current frequency of buying organic foods,Exclusively or frequently,total,36
+Current frequency of buying organic foods,Exclusively or frequently,age_14-29,33
+Current frequency of buying organic foods,Exclusively or frequently,age_30-49,41
+Current frequency of buying organic foods,Exclusively or frequently,age_50+,34
+Current frequency of buying organic foods,Exclusively or frequently,female,40
+Current frequency of buying organic foods,Exclusively or frequently,male,32
+Current frequency of buying organic foods,At least occasionally,total,85
+Current frequency of buying organic foods,At least occasionally,age_14-29,85
+Current frequency of buying organic foods,At least occasionally,age_30-49,84
+Current frequency of buying organic foods,At least occasionally,age_50+,85
+Current frequency of buying organic foods,At least occasionally,female,87
+Current frequency of buying organic foods,At least occasionally,male,82
+Planned frequency of buying organic foods in the future,Exclusively,total,4
+Planned frequency of buying organic foods in the future,Exclusively,age_14-29,3
+Planned frequency of buying organic foods in the future,Exclusively,age_30-49,5
+Planned frequency of buying organic foods in the future,Exclusively,age_50+,4
+Planned frequency of buying organic foods in the future,Exclusively,female,5
+Planned frequency of buying organic foods in the future,Exclusively,male,3
+Planned frequency of buying organic foods in the future,Frequently,total,38
+Planned frequency of buying organic foods in the future,Frequently,age_14-29,40
+Planned frequency of buying organic foods in the future,Frequently,age_30-49,40
+Planned frequency of buying organic foods in the future,Frequently,age_50+,35
+Planned frequency of buying organic foods in the future,Frequently,female,39
+Planned frequency of buying organic foods in the future,Frequently,male,35
+Planned frequency of buying organic foods in the future,Occasionally,total,47
+Planned frequency of buying organic foods in the future,Occasionally,age_14-29,50
+Planned frequency of buying organic foods in the future,Occasionally,age_30-49,41
+Planned frequency of buying organic foods in the future,Occasionally,age_50+,48
+Planned frequency of buying organic foods in the future,Occasionally,female,46
+Planned frequency of buying organic foods in the future,Occasionally,male,48
+Planned frequency of buying organic foods in the future,Never,total,12
+Planned frequency of buying organic foods in the future,Never,age_14-29,7
+Planned frequency of buying organic foods in the future,Never,age_30-49,14
+Planned frequency of buying organic foods in the future,Never,age_50+,12
+Planned frequency of buying organic foods in the future,Never,female,10
+Planned frequency of buying organic foods in the future,Never,male,14
+Planned frequency of buying organic foods in the future,Exclusively or frequently,total,42
+Planned frequency of buying organic foods in the future,Exclusively or frequently,age_14-29,43
+Planned frequency of buying organic foods in the future,Exclusively or frequently,age_30-49,45
+Planned frequency of buying organic foods in the future,Exclusively or frequently,age_50+,39
+Planned frequency of buying organic foods in the future,Exclusively or frequently,female,44
+Planned frequency of buying organic foods in the future,Exclusively or frequently,male,38
+Planned frequency of buying organic foods in the future,At least occasionally,total,89
+Planned frequency of buying organic foods in the future,At least occasionally,age_14-29,93
+Planned frequency of buying organic foods in the future,At least occasionally,age_30-49,86
+Planned frequency of buying organic foods in the future,At least occasionally,age_50+,87
+Planned frequency of buying organic foods in the future,At least occasionally,female,90
+Planned frequency of buying organic foods in the future,At least occasionally,male,86
+Reasons for buying organic foods,Regional origin and support for regional firms,total,88
+Reasons for buying organic foods,Regional origin and support for regional firms,age_14-29,83
+Reasons for buying organic foods,Regional origin and support for regional firms,age_30-49,86
+Reasons for buying organic foods,Regional origin and support for regional firms,age_50+,91
+Reasons for buying organic foods,Regional origin and support for regional firms,female,91
+Reasons for buying organic foods,Regional origin and support for regional firms,male,85
+Reasons for buying organic foods,Animal welfare,total,90
+Reasons for buying organic foods,Animal welfare,age_14-29,87
+Reasons for buying organic foods,Animal welfare,age_30-49,90
+Reasons for buying organic foods,Animal welfare,age_50+,91
+Reasons for buying organic foods,Animal welfare,female,92
+Reasons for buying organic foods,Animal welfare,male,87
+Reasons for buying organic foods,Fewer additive substances,total,85
+Reasons for buying organic foods,Fewer additive substances,age_14-29,77
+Reasons for buying organic foods,Fewer additive substances,age_30-49,88
+Reasons for buying organic foods,Fewer additive substances,age_50+,86
+Reasons for buying organic foods,Fewer additive substances,female,89
+Reasons for buying organic foods,Fewer additive substances,male,81
+Reasons for buying organic foods,Healthy diet,total,87
+Reasons for buying organic foods,Healthy diet,age_14-29,79
+Reasons for buying organic foods,Healthy diet,age_30-49,87
+Reasons for buying organic foods,Healthy diet,age_50+,89
+Reasons for buying organic foods,Healthy diet,female,90
+Reasons for buying organic foods,Healthy diet,male,83
+Reasons for buying organic foods,No use of genetically changed organisms,total,74
+Reasons for buying organic foods,No use of genetically changed organisms,age_14-29,68
+Reasons for buying organic foods,No use of genetically changed organisms,age_30-49,69
+Reasons for buying organic foods,No use of genetically changed organisms,age_50+,78
+Reasons for buying organic foods,No use of genetically changed organisms,female,80
+Reasons for buying organic foods,No use of genetically changed organisms,male,67
+Reasons for buying organic foods,Contribution to biodiversity,total,74
+Reasons for buying organic foods,Contribution to biodiversity,age_14-29,64
+Reasons for buying organic foods,Contribution to biodiversity,age_30-49,80
+Reasons for buying organic foods,Contribution to biodiversity,age_50+,74
+Reasons for buying organic foods,Contribution to biodiversity,female,75
+Reasons for buying organic foods,Contribution to biodiversity,male,72
+Reasons for buying organic foods,Taste,total,67
+Reasons for buying organic foods,Taste,age_14-29,62
+Reasons for buying organic foods,Taste,age_30-49,65
+Reasons for buying organic foods,Taste,age_50+,69
+Reasons for buying organic foods,Taste,female,70
+Reasons for buying organic foods,Taste,male,63
+Reasons for buying organic foods,Avoidance of pesticide residues,total,84
+Reasons for buying organic foods,Avoidance of pesticide residues,age_14-29,71
+Reasons for buying organic foods,Avoidance of pesticide residues,age_30-49,83
+Reasons for buying organic foods,Avoidance of pesticide residues,age_50+,90
+Reasons for buying organic foods,Avoidance of pesticide residues,female,87
+Reasons for buying organic foods,Avoidance of pesticide residues,male,82
+Reasons for buying organic foods,Social standards and fair income for producers,total,79
+Reasons for buying organic foods,Social standards and fair income for producers,age_14-29,76
+Reasons for buying organic foods,Social standards and fair income for producers,age_30-49,76
+Reasons for buying organic foods,Social standards and fair income for producers,age_50+,82
+Reasons for buying organic foods,Social standards and fair income for producers,female,83
+Reasons for buying organic foods,Social standards and fair income for producers,male,75
+Reasons for buying organic foods,Products as natural as possible,total,90
+Reasons for buying organic foods,Products as natural as possible,age_14-29,87
+Reasons for buying organic foods,Products as natural as possible,age_30-49,88
+Reasons for buying organic foods,Products as natural as possible,age_50+,92
+Reasons for buying organic foods,Products as natural as possible,female,90
+Reasons for buying organic foods,Products as natural as possible,male,89
