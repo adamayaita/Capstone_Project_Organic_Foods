@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Organic operators by status of the registration process' inline='true' name='federated.0zjljf60djux2q15oo7bv17l3zzw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Organic operators by status of the registration process' name='textscan.05zu2pa1cijyt3190dkmk0gg71xl'>
+            <connection class='textscan' directory='C:/Users/malot/OneDrive/Desktop/organic production/dataset_industry' filename='Organic operators by status of the registration process.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.05zu2pa1cijyt3190dkmk0gg71xl' name='Organic operators by status of the registration process.csv' table='[Organic operators by status of the registration process#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='de_DE' separator=';'>
+            <column datatype='string' name='DATAFLOW' ordinal='0' />
+            <column datatype='datetime' name='LAST UPDATE' ordinal='1' />
+            <column datatype='string' name='freq' ordinal='2' />
+            <column datatype='string' name='unit' ordinal='3' />
+            <column datatype='string' name='operator' ordinal='4' />
+            <column datatype='string' name='procstat' ordinal='5' />
+            <column datatype='string' name='geo' ordinal='6' />
+            <column datatype='date' date-parse-format='yyyy' name='TIME_PERIOD' ordinal='7' />
+            <column datatype='integer' name='OBS_VALUE' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.05zu2pa1cijyt3190dkmk0gg71xl' name='Organic operators by status of the registration process.csv' table='[Organic operators by status of the registration process#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='de_DE' separator=';'>
+            <column datatype='string' name='DATAFLOW' ordinal='0' />
+            <column datatype='datetime' name='LAST UPDATE' ordinal='1' />
+            <column datatype='string' name='freq' ordinal='2' />
+            <column datatype='string' name='unit' ordinal='3' />
+            <column datatype='string' name='operator' ordinal='4' />
+            <column datatype='string' name='procstat' ordinal='5' />
+            <column datatype='string' name='geo' ordinal='6' />
+            <column datatype='date' date-parse-format='yyyy' name='TIME_PERIOD' ordinal='7' />
+            <column datatype='integer' name='OBS_VALUE' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;de&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;de_DE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATAFLOW</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DATAFLOW]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>DATAFLOW</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAST UPDATE</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[LAST UPDATE]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>LAST UPDATE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freq</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[freq]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>freq</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[unit]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>unit</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[operator]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>operator</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>procstat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[procstat]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>procstat</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geo]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>geo</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME_PERIOD</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[TIME_PERIOD]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>TIME_PERIOD</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LDE_RDE' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBS_VALUE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBS_VALUE]</local-name>
+            <parent-name>[Organic operators by status of the registration process.csv]</parent-name>
+            <remote-alias>OBS_VALUE</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Dataflow' datatype='string' name='[DATAFLOW]' role='dimension' type='nominal' />
+      <column caption='Last Update' datatype='datetime' name='[LAST UPDATE]' role='dimension' type='ordinal' />
+      <column caption='Obs Value' datatype='integer' name='[OBS_VALUE]' role='measure' type='quantitative' />
+      <column caption='Time Period' datatype='date' name='[TIME_PERIOD]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Organic operators by status of the registration process.csv' datatype='table' name='[__tableau_internal_object_id__].[Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D]' role='measure' type='quantitative' />
+      <column caption='Freq' datatype='string' name='[freq]' role='dimension' type='nominal' />
+      <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Operator' datatype='string' default-role='measure' default-type='ordinal' name='[operator]' role='dimension' type='nominal' />
+      <column caption='Procstat' datatype='string' name='[procstat]' role='dimension' type='nominal' />
+      <column caption='Unit' datatype='string' name='[unit]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Deutschland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Organic operators by status of the registration process.csv' id='Organic operators by status of the registration process.csv_351D51836CEF4665B399C2A2B548418D'>
+            <properties context=''>
+              <relation connection='textscan.05zu2pa1cijyt3190dkmk0gg71xl' name='Organic operators by status of the registration process.csv' table='[Organic operators by status of the registration process#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='de_DE' separator=';'>
+                  <column datatype='string' name='DATAFLOW' ordinal='0' />
+                  <column datatype='datetime' name='LAST UPDATE' ordinal='1' />
+                  <column datatype='string' name='freq' ordinal='2' />
+                  <column datatype='string' name='unit' ordinal='3' />
+                  <column datatype='string' name='operator' ordinal='4' />
+                  <column datatype='string' name='procstat' ordinal='5' />
+                  <column datatype='string' name='geo' ordinal='6' />
+                  <column datatype='date' date-parse-format='yyyy' name='TIME_PERIOD' ordinal='7' />
+                  <column datatype='integer' name='OBS_VALUE' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Blatt 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Companies registered as ORGANIC producers at the end of the year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Organic operators by status of the registration process' name='federated.0zjljf60djux2q15oo7bv17l3zzw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zjljf60djux2q15oo7bv17l3zzw'>
+            <column caption='Obs Value' datatype='integer' name='[OBS_VALUE]' role='measure' type='quantitative' />
+            <column caption='Time Period' datatype='date' name='[TIME_PERIOD]' role='dimension' type='quantitative' />
+            <column-instance column='[geo]' derivation='Count' name='[cnt:geo:qk]' pivot='key' type='quantitative' />
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column-instance column='[TIME_PERIOD]' derivation='None' name='[none:TIME_PERIOD:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OBS_VALUE]' derivation='Sum' name='[sum:OBS_VALUE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME_PERIOD]' derivation='Year-Trunc' name='[tyr:TIME_PERIOD:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0zjljf60djux2q15oo7bv17l3zzw].[none:TIME_PERIOD:qk]' included-values='in-range'>
+            <min>#2013-01-01#</min>
+            <max>#2021-01-01#</max>
+          </filter>
+          <filter class='categorical' column='[federated.0zjljf60djux2q15oo7bv17l3zzw].[none:geo:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:geo:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;Albania&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;European Union - 27 countries (from 2020)&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;European Union - 28 countries (2013-2020)&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;European Union (EU6-1958, EU9-1973, EU10-1981, EU12-1986, EU15-1995, EU25-2004, EU27-2007, EU28-2013, EU27-2020)&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;North Macedonia&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;Switzerland&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;Türkiye&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='&quot;United Kingdom&quot;' />
+                <groupfilter function='member' level='[none:geo:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zjljf60djux2q15oo7bv17l3zzw].[none:geo:nk]</column>
+            <column>[federated.0zjljf60djux2q15oo7bv17l3zzw].[none:TIME_PERIOD:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]' scope='rows' value='Amount of companies' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]' num-steps='3' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]' />
+              <lod column='[federated.0zjljf60djux2q15oo7bv17l3zzw].[cnt:geo:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]</rows>
+        <cols>[federated.0zjljf60djux2q15oo7bv17l3zzw].[tyr:TIME_PERIOD:ok]</cols>
+      </table>
+      <simple-id uuid='{231B584E-23F8-4263-B0DC-161BF81A3DE3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Blatt 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zjljf60djux2q15oo7bv17l3zzw].[none:TIME_PERIOD:qk]</field>
+            <field>[federated.0zjljf60djux2q15oo7bv17l3zzw].[none:geo:nk]</field>
+            <field>[federated.0zjljf60djux2q15oo7bv17l3zzw].[sum:OBS_VALUE:qk]</field>
+            <field>[federated.0zjljf60djux2q15oo7bv17l3zzw].[tyr:TIME_PERIOD:ok]</field>
+            <field>[federated.0zjljf60djux2q15oo7bv17l3zzw].[tyr:TIME_PERIOD:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DA151A0B-A888-467A-A6B5-EA557959CD44}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Blatt 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
